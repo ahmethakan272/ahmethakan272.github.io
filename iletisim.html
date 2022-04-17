@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    body{
+        background-color: #3af0ac;
+       
+    }
+    ul{
+        list-style-type: none;
+        padding-left: 0;
+        width: 100%;
+        margin: 0 auto;
+       
+        text-align: center;
+        
+    }
+
+    ul li{
+float: left;  
+/* float left hucrelerı bırlesık yazmayı saglar */
+/* display inline block ta arada bosluklar kalır */
+width: 300px;
+height: 50px;
+background-color: #173e43;
+line-height: 50px;
+text-align: center;
+text-transform: uppercase;
+
+    }
+
+    ul li a{
+        
+        text-decoration: none;
+        color: white;
+       
+    }
+
+    li a:hover{
+    background-color:#FF8C00; 
+    border-radius: 30px 30px 30px 30px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #ffffff;
+    background-color: #3af0ac;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#contact{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.title{
+    color: #3F51B5;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.contact-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-left{
+    width: 40%;
+    padding: 3rem;
+}
+.cont-top{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ffffff;
+}
+.cont-element{
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.cont-element i{
+    color: #ffffff;
+    padding: 0.7rem;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: all 0.4s ease;
+}
+.cont-element:hover i{
+    background-color: #ffffff;
+    color: #011627;
+}
+.cont-element a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.cont-bottom{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont-bottom a{ 
+    /* background color arka palnla aynı renk yap */
+    color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #3af0ac;
+    border-radius: 50%;
+}
+.cont-bottom a:hover{
+    color: #181818;
+    background-color: #ffffff;
+}
+
+
+.cont-right{
+    width: 60%;
+    padding: 3rem;
+}
+.cont-right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont-right form input, textarea, button{
+    width: 100%;
+    margin: 1rem 0;
+    background-color: transparent;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid #ffffff;
+    color: #ffffff; 
+    transition: all 0.4s ease;
+}
+.cont-right form button{
+    background-color: #ffffff;
+    color: #011627;
+    cursor: pointer;
+}
+.cont-right form button:hover{
+    background-color: #011627;
+    color: #ffffff;
+}
+.cont-right form input:hover, textarea:hover{
+    color: #011627;
+    background-color: #ffffff;
+}
+.cont-right form input:focus, textarea:focus{
+    color: #011627;
+    background-color: #ffffff;
+}
+    </style>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>iletisim</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    
+
+</head>
+<body>
+    
+    <ul >
+        <li ><a href="C:\Users\ahmet hakan\Desktop\HTML\web sitesi\anasayfa.html">ana sayfa</a></li>
+        <li><a href="C:\Users\ahmet hakan\Desktop\HTML\web sitesi\hakkında.html">hakkında</a></li>
+        <li><a href="C:\Users\ahmet hakan\Desktop\HTML\web sitesi\iletisim.html">iletişim</a></li>
+        <li><a href="C:\Users\ahmet hakan\Desktop\HTML\web sitesi\calısmalar.html">çalışmalar</a></li>
+        <li><a href="C:\Users\ahmet hakan\Desktop\HTML\web sitesi\takvim.html">takvim</a></li>
+
+    </ul>
+
+    <section id="contact">
+        <div class="container">
+            <h1 class="title">İletişim</h1>
+            <div class="contact-area">
+                <div class="cont-left">
+                    <div class="cont-top">
+                        <div class="cont-element">
+                            <i class="adres"></i>
+                            <address>Malatya/Türkiye</address>
+                        </div>
+                        <div class="cont-element">
+                            <i class="email"></i>
+                            <a href="mailto:ahmetyılmaz@fakemail.com">ahmetyılmaz@fakemail.com</a>
+                        </div>
+                        <div class="cont-element">
+                            <i class="telefon"></i>
+                            <a href="tel:+1234567890">123-456-7890</a>
+                        </div>
+                    </div>
+                    <div class="cont-bottom">
+                        <a href="#"><img width="67.5" src="C:\Users\ahmet hakan\Desktop\HTML\web sitesi\resimler\Facebook_f_logo_(2019).svg.jpeg" ><i class="facebook"></i></a> 
+                        <a href="#"><img width="70" src="C:\Users\ahmet hakan\Desktop\HTML\web sitesi\resimler\6-65108_twitter-circle-logo-transparent-background-twitter-logo.jpeg" ><i class="twitter"></i></a> 
+                        <a href="#"><img width="70" src="C:\Users\ahmet hakan\Desktop\HTML\web sitesi\resimler\Iconfinder_social-instagram-new-circle_1164349_(1).png" ><i class="instagram"></i></a> 
+                        <a href="#"><img width="70" src="C:\Users\ahmet hakan\Desktop\HTML\web sitesi\resimler\771370_circle_linkedin_logo_media_network_icon.png"> <i class="linkedin-in"></i> </a> 
+                    </div>
+                </div>
+                <div class="cont-right">
+                    <form action="">
+                        <input type="text" name="text" id="text" placeholder="Ad Soyad">
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                        <textarea name="message" id="message" rows="10" placeholder="Mesaj"></textarea>
+                        <button>Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

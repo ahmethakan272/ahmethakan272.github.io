@@ -41,37 +41,27 @@ text-transform: uppercase;
     border-radius: 30px 30px 30px 30px;
 }
 
-.center{
-position: absolute;
-top:50%;
-left: 50%;
-transform: translate(-50%,-50%);
-font-family: sans-serif;
-user-select: none;
+/*use-itty-bitty-template*/
+body {background: #3af0ac;}
+h1, h2, h3, h4, h5 {
+  border-bottom: 1px solid #ccc;
+  color: #3F51B5;
+  padding-bottom: 8px
 }
-
-.center h1{
-color:black;
-font: size 70px;
-font-weight: bold;
-width: 900px;
-text-align: center;
-
+.container {
+  margin: auto;
+  width: 350px;
+  text-align: center;
 }
+.listFlex {display: flex; justify-content: center;}
 
- .center h2{
-
-    color:#3F51B5;
-    font-size: 50px;
-    font-weight: bold;
-    width: 885px;
-    margin-top: 10px;
-    text-align: center;
+img {
+  width: 100%;
 }
     </style>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>index</title>
+    <title>hakkında</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
@@ -88,11 +78,15 @@ text-align: center;
         <li><a href="C:\Users\ahmet hakan\Desktop\HTML\web sitesi\takvim.html">takvim</a></li>
 
     </ul>
-<div class="center">
-<h1>Profil Web Siteme</h1>
-
-<h2>HOŞGELDİNİZ</h2>
-</div>
+    <div class="container">
+        <h1>Ahmet Hakan Yılmaz</h1>
+        <h3>Personal Profile</h3>
+        <a href=""><img width="200" src="C:\Users\ahmet hakan\Desktop\HTML\web sitesi\resimler\1280px-sonbaharin-habercisi-dokulen-yapraklar-gelgez-modified.png" alt="profile-picture" border="0" /></a>
+        <h4>Hakkımda</h4>
+        <p><strong> Merhaba, ben Ahmet Hakan Yılmaz,şu anda Malatya İnönü Üniversitesinde yazılım mühendisi öğrencisiyim.Kitap okumayı ve bulmaca çözmeyi severim.</strong></p>
+        
+              
+     </div>
    
 </body>
 </html>
