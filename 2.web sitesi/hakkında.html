@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/regular.min.css" integrity="sha512-YoxvmIzlVlt4nYJ6QwBqDzFc+2aXL7yQwkAuscf2ZAg7daNQxlgQHV+LLRHnRXFWPHRvXhJuBBjQqHAqRFkcVw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css" integrity="sha512-qzgHTQ60z8RJitD5a28/c47in6WlHGuyRvMusdnuWWBB6fZ0DWG/KyfchGSBlLVeqAz+1LzNq+gGZkCSHnSd3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/solid.min.js" integrity="sha512-C92U8X5fKxCN7C6A/AttDsqXQiB7gxwvg/9JCxcqR6KV+F0nvMBwL4wuQc+PwCfQGfazIe7Cm5g0VaHaoZ/BOQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/webfonts/fa-brands-400.ttf">
+    <title>Ana Sayfa</title>
+    <style>
+        body {
+font-family: 'Open Sans',sans-serif !important;
+        }
+        .bg-yellow{
+            background-color: #BBDEFF !important;
+        }
+
+        .py-6{
+            padding: 150px 0px;
+        }
+
+        .bg-green{
+            background-color:#173e43 ;
+        }
+
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+ .navbar li a:hover{
+    background-color:#FF8C00; 
+    border-radius: 30px 30px 30px 30px;
+}
+
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+.gray-bg {
+    background-color: #f5f5f5;
+}
+img {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.about-text h3 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+@media (max-width: 767px) {
+  .about-text h3 {
+    font-size: 35px;
+  }
+}
+.about-text h6 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+@media (max-width: 767px) {
+  .about-text h6 {
+    font-size: 18px;
+  }
+}
+.about-text p {
+  font-size: 18px;
+  max-width: 450px;
+}
+.about-text p mark {
+  font-weight: 600;
+  color: #20247b;
+}
+
+.about-list {
+  padding-top: 10px;
+}
+.about-list .media {
+  padding: 5px 0;
+}
+.about-list label {
+  color: #20247b;
+  font-weight: 600;
+  width: 88px;
+  margin: 0;
+  position: relative;
+}
+.about-list label:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 11px;
+  width: 1px;
+  height: 12px;
+  background: #20247b;
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  margin: auto;
+  opacity: 0.5;
+}
+.about-list p {
+  margin: 0;
+  font-size: 15px;
+}
+
+@media (max-width: 991px) {
+  .about-avatar {
+    margin-top: 30px;
+  }
+}
+
+.about-section .counter {
+  padding: 22px 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+}
+.about-section .counter .count-data {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.about-section .counter .count {
+  font-weight: 700;
+  color: #20247b;
+  margin: 0 0 5px;
+}
+.about-section .counter p {
+  font-weight: 600;
+  margin: 0;
+}
+mark {
+    background-image: linear-gradient(rgba(252, 83, 86, 0.6), rgba(252, 83, 86, 0.6));
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-color: transparent;
+    padding: 0;
+    color: currentColor;
+}
+.theme-color {
+    color: #fc5356;
+}
+.dark-color {
+    color: #20247b;
+}
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  </head>
+  <body>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<nav class="navbar navbar-dark bg-green navbar-expand-lg text-white sticky-top">
+    <div class="container">
+        <a href="http://127.0.0.1:5500/2.web%20sitesi/index.html" class="navbar-brand"><i class="fa-solid fa-blog"></i> Ana Sayfa</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-index" aria-controls="navbar-index">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbar-index">
+            <ul class="navbar nav  ms-auto">
+                <li class="nav-item">
+                    <a href="http://127.0.0.1:5500/2.web%20sitesi/hakk%C4%B1nda.html" class="nav-link text-white" >Hakkımda</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="http://127.0.0.1:5500/2.web%20sitesi/portfolyo.html" class="nav-link text-white">Portfolyo</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="http://127.0.0.1:5500/2.web%20sitesi/ileti%C5%9Fim.html" class="nav-link text-white">İletişim</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="http://127.0.0.1:5500/2.web%20sitesi/cv.html" class="nav-link text-white">Cv</a>
+                </li>
+
+            
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="bg-yellow py-6 section about-section gray-bg"  id="about">
+   
+        <div class="container">
+            <div class="row align-items-center flex-row-reverse">
+                <div class="col-lg-6">
+                    <div class="about-text go-to">
+                        <h3 class="dark-color">Ahmet Hakan Yılmaz</h3>
+                        <h6 class="theme-color lead">Future City Şirketinde Projeler Geliştiren Biri</h6>
+                        <p> Modern web siteleri, web hizmetleri ve çevrimiçi mağazalar oluşturma konusunda uzmanlaşmış, her büyüklükteki müşteri için hizmetler tasarlıyor ve geliştiriyorum.Bir yandan da Yapay zeka projeleri geliştiriyorum ve bunun yanı sıra kendime yeni bilgiler de katmaktayım.</p>
+                        <div class="row about-list">
+                            <div class="col-md-6">
+                                <div class="media">
+                                    <label>Doğum Günü</label>
+                                    <p>23 Haziran 1900</p>
+                                </div>
+                                <div class="media">
+                                    <label>Yaş</label>
+                                    <p>20 </p>
+                                </div>
+                                <div class="media">
+                                    <label>İkamet</label>
+                                    <p>Türkiye</p>
+                                </div>
+                                <div class="media">
+                                    <label>Adres</label>
+                                    <p>Malatya, Türkiye</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="media">
+                                    <label>E-posta</label>
+                                    <p>ahmetyılmaz@fakemail.com</p>
+                                </div>
+                                <div class="media">
+                                    <label>Telefon</label>
+                                    <p>820-885-3321</p>
+                                </div>
+                                <div class="media">
+                                    <label>Beceriler</label>
+                                    <p>Web sitesi yapımı,oyun yapımı,konsol uygulamaları</p>
+                                </div>
+                                <div class="media">
+                                    <label>Yetkinlik</label>
+                                    <p>C#,Java,C,HTML,Css,Javascript dillerine hakim</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-avatar">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar7.png" title="" alt="">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    
+</section>
+
+
+
+
+
+<footer class="bg-dark py-5">
+<div class="container text-white">
+    <div class="row">
+        <div class="col-md-2" >
+           
+            <a href="http://127.0.0.1:5500/2.web%20sitesi/hakk%C4%B1nda.html"><i class="fa-solid fa-circle-a"> <h3><b>Ahmet Hakan Yılmaz</b></h3></i></a>
+        </div>
+        <div class="col-md-2">
+            <ul class="list-unstyled">
+                <li class=" mb-3"><a href="#">ŞİRKET</a></li>
+                <li><a href="#" style="text-decoration: none">Hakkında</a></li>
+                <li><a href="#" style="text-decoration: none">İşler</a></li>
+                <li><a href="#" style="text-decoration: none">Basın</a></li>
+                <li><a href="#" style="text-decoration: none">Haberler</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <ul class="list-unstyled">
+                <li class=" mb-3"><a href="#">TOPLULUK</a></li>
+               
+                <li><a href="#" style="text-decoration: none">Geliştiriciler</a></li>
+                <li><a href="#" style="text-decoration: none">Markalar</a></li>
+                <li><a href="#" style="text-decoration: none">Yatırımcılar</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <ul class="list-unstyled">
+                <li class=" mb-3"><a href="#">YARARLI BAĞLANTILAR</a></li>
+                <li><a href="#" style="text-decoration: none">Yardım</a></li>
+                
+                
+                <li><a href="#" style="text-decoration: none">Etkileşim</a></li>
+            </ul>
+        </div>
+            <div class="col-md-4 text-end"> 
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2x mx-3"></i></a>
+                <a href="https://twitter.com/login?lang=tr"><i class="fa-brands fa-twitter fa-2x mx-3"></i></a>
+                <a href="https://www.instagram.com/?hl=tr"><i class="fa-brands fa-instagram fa-2x mx-3"></i></a>
+            </div>
+                <div class="clearfix"></div>
+
+                
+                <ul class="list-group list-group-horizontal mt-5 float-start">
+                    <li class="list-inline-item"><a href="#" class="text-white">Yasal</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Gizlilik</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Cookies</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Reklamlar</a></li>
+                </ul>
+              <div> <p class="mt-5  float-end"><small>Türkiye<br>2022</small></p> </div> 
+              
+    </div>
+</div>
+</footer>
+    
+  </body>
+</html>

@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/regular.min.css" integrity="sha512-YoxvmIzlVlt4nYJ6QwBqDzFc+2aXL7yQwkAuscf2ZAg7daNQxlgQHV+LLRHnRXFWPHRvXhJuBBjQqHAqRFkcVw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css" integrity="sha512-qzgHTQ60z8RJitD5a28/c47in6WlHGuyRvMusdnuWWBB6fZ0DWG/KyfchGSBlLVeqAz+1LzNq+gGZkCSHnSd3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/solid.min.js" integrity="sha512-C92U8X5fKxCN7C6A/AttDsqXQiB7gxwvg/9JCxcqR6KV+F0nvMBwL4wuQc+PwCfQGfazIe7Cm5g0VaHaoZ/BOQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/webfonts/fa-brands-400.ttf">
+    <title>Ana Sayfa</title>
+    <style>
+        body {
+font-family: 'Open Sans',sans-serif !important;
+        }
+        .bg-yellow{
+            background-color: #BBDEFF !important;
+        }
+
+        .py-6{
+            padding: 150px 0px;
+        }
+
+        .bg-green{
+            background-color:#173e43 ;
+        }
+
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+ .navbar li a:hover{
+    background-color:#FF8C00; 
+    border-radius: 30px 30px 30px 30px;
+}
+
+#contact{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.title{
+    color: #3F51B5;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.contact-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-left{
+    width: 40%;
+    padding: 3rem;
+}
+.cont-top{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ffffff;
+}
+.cont-element{
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.cont-element i{
+    color: #ffffff;
+    padding: 0.7rem;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: all 0.4s ease;
+}
+.cont-element:hover i{
+    background-color: #ffffff;
+    color: #011627;
+}
+.cont-element a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.cont-bottom{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont-bottom a{ 
+    /* background color arka palnla aynı renk yap */
+    color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+   
+    border-radius: 50%;
+}
+.cont-bottom a:hover{
+    color: #181818;
+    
+}
+
+
+.cont-right{
+    width: 60%;
+    padding: 3rem;
+}
+.cont-right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont-right form input, textarea, button{
+    width: 100%;
+    margin: 1rem 0;
+    background-color: transparent;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid #ffffff;
+    color: #ffffff; 
+    transition: all 0.4s ease;
+}
+.cont-right form button{
+    background-color: #ffffff;
+    color: #011627;
+    cursor: pointer;
+}
+.cont-right form button:hover{
+    background-color: #011627;
+    color: #ffffff;
+}
+.cont-right form input:hover, textarea:hover{
+    color: #011627;
+    background-color: #ffffff;
+}
+.cont-right form input:focus, textarea:focus{
+    color: #011627;
+    background-color: #ffffff;
+}
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  </head>
+  <body>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<nav class="navbar navbar-dark bg-green navbar-expand-lg text-white sticky-top">
+    <div class="container">
+        <a href="http://127.0.0.1:5500/2.web%20sitesi/index.html" class="navbar-brand"><i class="fa-solid fa-blog"></i> Ana Sayfa</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-index" aria-controls="navbar-index">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbar-index">
+            <ul class="navbar nav  ms-auto">
+                <li class="nav-item">
+                    <a href="http://127.0.0.1:5500/2.web%20sitesi/hakk%C4%B1nda.html" class="nav-link text-white" >Hakkımda</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="http://127.0.0.1:5500/2.web%20sitesi/portfolyo.html" class="nav-link text-white">Portfolyo</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="http://127.0.0.1:5500/2.web%20sitesi/ileti%C5%9Fim.html" class="nav-link text-white">İletişim</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="http://127.0.0.1:5500/2.web%20sitesi/cv.html" class="nav-link text-white">Cv</a>
+                </li>
+
+            
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="bg-yellow py-6">
+    <div class="container">
+        <h1 class="title">İletişim</h1>
+        <div class="contact-area">
+            <div class="cont-left">
+                <div class="cont-top">
+                    <div class="cont-element">
+                        <i class="adres"></i>
+                        <address>Malatya/Türkiye</address>
+                    </div>
+                    <div class="cont-element">
+                        <i class="email"></i>
+                        <a href="mailto:ahmetyılmaz@fakemail.com" class="nav-link text-black" >ahmetyılmaz@fakemail.com</a>
+                    </div>
+                    <div class="cont-element">
+                        <i class="telefon"></i>
+                        <a href="tel:+1234567890" class=" text-black">123-456-7890</a>
+                    </div>
+                </div>
+                <div class="cont-bottom">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2x mx-3"></i></a> 
+                    <a href="https://twitter.com/login?lang=tr"><i class="fa-brands fa-twitter fa-2x mx-3"></i></a> 
+                    <a href="https://www.instagram.com/?hl=tr"><i class="fa-brands fa-instagram fa-2x mx-3"></i></a> 
+                    
+                </div>
+            </div>
+            <div class="cont-right">
+                <form action="">
+                    <input type="text" name="text" id="text" placeholder="Ad Soyad">
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                    <textarea name="message" id="message" rows="10" placeholder="Mesaj"></textarea>
+                    <button>Gönder</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<footer class="bg-dark py-5">
+<div class="container text-white">
+    <div class="row">
+        <div class="col-md-2" >
+           
+            <a href="http://127.0.0.1:5500/2.web%20sitesi/hakk%C4%B1nda.html"><i class="fa-solid fa-circle-a"> <h3><b>Ahmet Hakan Yılmaz</b></h3></i></a>
+        </div>
+        <div class="col-md-2">
+            <ul class="list-unstyled">
+                <li class=" mb-3"><a href="#">ŞİRKET</a></li>
+                <li><a href="#" style="text-decoration: none">Hakkında</a></li>
+                <li><a href="#" style="text-decoration: none">İşler</a></li>
+                <li><a href="#" style="text-decoration: none">Basın</a></li>
+                <li><a href="#" style="text-decoration: none">Haberler</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <ul class="list-unstyled">
+                <li class=" mb-3"><a href="#">TOPLULUK</a></li>
+               
+                <li><a href="#" style="text-decoration: none">Geliştiriciler</a></li>
+                <li><a href="#" style="text-decoration: none">Markalar</a></li>
+                <li><a href="#" style="text-decoration: none">Yatırımcılar</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <ul class="list-unstyled">
+                <li class=" mb-3"><a href="#">YARARLI BAĞLANTILAR</a></li>
+                <li><a href="#" style="text-decoration: none">Yardım</a></li>
+                
+                
+                <li><a href="#" style="text-decoration: none">Etkileşim</a></li>
+            </ul>
+        </div>
+            <div class="col-md-4 text-end"> 
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2x mx-3"></i></a>
+                <a href="https://twitter.com/login?lang=tr"><i class="fa-brands fa-twitter fa-2x mx-3"></i></a>
+                <a href="https://www.instagram.com/?hl=tr"><i class="fa-brands fa-instagram fa-2x mx-3"></i></a>
+            </div>
+                <div class="clearfix"></div>
+
+                
+                <ul class="list-group list-group-horizontal mt-5 float-start">
+                    <li class="list-inline-item"><a href="#" class="text-white">Yasal</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Gizlilik</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Cookies</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Reklamlar</a></li>
+                </ul>
+              <div> <p class="mt-5  float-end"><small>Türkiye<br>2022</small></p> </div> 
+              
+    </div>
+</div>
+</footer>
+    
+  </body>
+</html>
