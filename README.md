@@ -1,2 +1,2 @@
-# ahmethakan272.github.io
+# ahmethakan
 MY PROFİL PAGE
